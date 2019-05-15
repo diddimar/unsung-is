@@ -1,0 +1,27 @@
+<!-- Tabs Titles -->
+<a href="javascript:void(0)" class="select_form transit" [ngClass]="showSignup ? 'inactive' : 'active'"
+  (click)="showSignup = false">
+  <i-feather name="user" class="default"></i-feather>
+  Sign in
+</a>
+<a href="javascript:void(0)" class="select_form transit" [ngClass]="showSignup ? 'active' : 'inactive'"
+  (click)="showSignup = true">
+  Sign Up
+  <i-feather name="user-plus" class="default"></i-feather>
+</a>
+<form [formGroup]="loginForm">
+  <!-- Login -->
+  <fieldset class="fade-in" [disabled]="loading" [ngClass]="{'hide': showSignup}">
+    <input formControlName="email" type="email" placeholder="electronic mail" class="transit">
+    <input formControlName="password" type="password" placeholder="password" class="transit">
+    <button (click)="submitLogin()">Signin</button>
+    <br>
+    <a class="forgot transit" *ngIf="!showSignup" (click)="forgotPasswordClicked()">Forgot Password?</a>
+  </fieldset>
+  <fieldset class="fade-in" [ngClass]="{'hide': !showSignup}" [disabled]="loading">
+    <input type="email" placeholder="electronic mail" class="transit">
+    <input type="password" placeholder="password" class="transit">
+    <input type="password" placeholder="confirm password" class="transit">
+    <button (click)="submitRegister()">Register</button>
+  </fieldset>
+</form>

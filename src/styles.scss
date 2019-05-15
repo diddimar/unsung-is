@@ -1,0 +1,50 @@
+// @import "./vendor/beauter.min.css";
+// @import "./vendor/mini-nord.css";
+// @import "./vendor/mini-dark.css";
+i-feather.default {
+    height: .75em;
+    width: .75em;
+    color: gray;
+}
+*:focus {
+    outline: none;
+}
+* {
+  user-select: none;
+  box-sizing: border-box;
+}
+.passport {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  text-align: center;
+  max-width: 450px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fade-in {
+	-webkit-animation: fade-in 0.3s ease-in-out both;
+	        animation: fade-in 0.3s ease-in-out both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

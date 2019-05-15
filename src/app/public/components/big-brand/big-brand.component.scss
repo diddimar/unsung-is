@@ -1,0 +1,31 @@
+.card.top {
+  padding: 10px;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  padding-bottom: 0.75em;
+  z-index: 0;
+  margin: auto; 
+}
+.card.top .image_container {
+  width: fit-content;
+  margin:  auto;
+  height: fit-content;
+  overflow: hidden;
+}
+.card.top .logo-image svg {
+  // height: 90px;
+  fill: var(--secondary-fore-color);
+}
+.card.top .image_container ~ h1 {
+  margin-top: -0.25em;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-weight: 500;
+  color: var(--fore-color);
+}
+.card.top .image_container ~ p.low {
+  margin-top: -0.25em;
+  font-weight: 500;
+  color: var(--secondary-fore-color);
+}
