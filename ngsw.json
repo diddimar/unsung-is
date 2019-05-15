@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1557900647482,
+  "timestamp": 1557901075135,
   "index": "https://diddimar.github.io/unsung-is/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "https://diddimar.github.io/unsung-is/main.197f955c8d8a76c8b327.js",
         "https://diddimar.github.io/unsung-is/polyfills.8bbb231b43165d65d357.js",
         "https://diddimar.github.io/unsung-is/runtime.26209474bfa8dc87a77c.js",
-        "https://diddimar.github.io/unsung-is/styles.ea3a5663a8ca94b73f5f.css"
+        "https://diddimar.github.io/unsung-is/styles.dadea5d462d2e765034d.css"
       ],
       "patterns": []
     },
@@ -49,11 +49,11 @@
     "https://diddimar.github.io/unsung-is/assets/img/unsung_logo.svg": "715bb717e31a0d1c91ccb309e4c5096bdfdcec09",
     "https://diddimar.github.io/unsung-is/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://diddimar.github.io/unsung-is/favicon.ico": "763187723afe3c150a3156caac961448783bc1c6",
-    "https://diddimar.github.io/unsung-is/index.html": "20041b45ec0dc2e332a230b65906d0227aa8e5c7",
+    "https://diddimar.github.io/unsung-is/index.html": "db2a77e9c016e42b92f0877f68a2ff1996ec0cea",
     "https://diddimar.github.io/unsung-is/main.197f955c8d8a76c8b327.js": "680cd6120b4d7eeb1dfcc572e0871a5425b0f142",
     "https://diddimar.github.io/unsung-is/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "https://diddimar.github.io/unsung-is/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://diddimar.github.io/unsung-is/styles.ea3a5663a8ca94b73f5f.css": "175be543822ce019d0fae4ffd7afdabb5da05e53"
+    "https://diddimar.github.io/unsung-is/styles.dadea5d462d2e765034d.css": "5d1a5b92eee8df8fab52178a0b13dc1447f21485"
   },
   "navigationUrls": [
     {
